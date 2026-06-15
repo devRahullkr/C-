@@ -34,16 +34,33 @@ using namespace std;
 
 
 // square pattern with * of n times
+// int main(){
+
+//     int n = 4;
+//     for(int i = 1 ; i <= n ; i++){
+//         for(int j = 1 ; j <=n ; j++){
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+
+// square pattern with continous number with start from n
 
 int main(){
-
     int n = 4;
-    for(int i = 1 ; i <= n ; i++){
-        for(int j = 1 ; j <=n ; j++){
-            cout << "* ";
+    int num = 1;
+
+    for(int i = 0 ; i < n ; i++){
+        for(int j = 0 ; j < n ; j++){
+            cout << num << " ";
+            num += 1;
         }
         cout << endl;
     }
+
     return 0;
 }
 
