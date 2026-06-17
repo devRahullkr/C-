@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// sqaure pattern with number n
+// square pattern with number n
 // int main(){
 
 //     int n = 5;
@@ -17,7 +17,7 @@ using namespace std;
 // }
 
 
-// sqaure pattern with alphabet n
+// square pattern with alphabet n
 // int main(){
 
 //     int n = 5;
@@ -151,6 +151,21 @@ using namespace std;
 //     return 0;
 // }
 
+// revers characters triangle
+
+// int main(){
+//     int n = 4;
+//     for(int i = 0 ; i < n ; i++){
+//         char ch = 65 + i;
+//         for(int j = i ; j >= 0 ; j--){
+//             cout << ch << " ";
+//             ch -= 1;
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
 
 // floyd's triangle pattern with numbers
 
@@ -181,6 +196,48 @@ using namespace std;
 //     }
 //     return 0;
 // }
+
+
+// inverted triangle pattern with number and star's
+
+// int main(){
+//     int n = 4;
+//     for(int i = 0 ; i < n ; i++){
+
+//         for(int j = 0 ; j < i ; j++){
+//             cout << " ";
+//         }
+
+//         for(int j = 0 ; j < n-i ; j++){
+//             // cout << "*" ;
+//             cout << i+1 ;
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+
+// inverted triangle pattern with character
+
+// int main(){
+//     int n = 4;
+//     char ch = 'A';
+//     for(int i = 0 ; i < n ; i++){
+
+//         for(int j = 0 ; j < i ; j++){
+//             cout << " ";
+//         }
+
+//         for(int k = 0 ; k < n-i ; k++){
+//             cout << ch ;
+//         }
+//         ch += 1;
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
 
 
 
