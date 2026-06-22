@@ -16,15 +16,37 @@ using namespace std;
 
 // calculate sum of number from 1 to n;
 
-int sum(int n){
-    int sum = 0;
-    for(int i = 1 ; i <= n ; i++){
-        sum += i;
-    }
-    return sum;
-}
+// int sum(int n){
+//     int sum = 0;
+//     for(int i = 1 ; i <= n ; i++){
+//         sum += i;
+//     }
+//     return sum;
+// }
 
-int main(){
-    cout << "sum = " << sum(5) << endl;
-    return 0;
-}
+// int main(){
+//     cout << "sum = " << sum(5) << endl;
+//     return 0;
+// }
+
+
+
+// calculate nth factorial;
+
+// int factorial(int n){
+//     int fact = 1;
+//     for(int i = 1 ; i <= n ; i++){
+//         fact *= i;
+//     }
+//     return fact;
+// }
+
+// int main(){
+//     cout << "Factorial = " << factorial(5) << endl;
+//     return 0;
+// }
+
+
+// PASS BY VALUE
+
+
